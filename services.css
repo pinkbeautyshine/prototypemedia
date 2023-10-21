@@ -1,0 +1,411 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'sans-serif';
+}
+body{
+	overflow-x: hidden;
+}
+.container{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 3, 0.6),rgba(0, 0, 3, 0.6)),url(background.jpg);
+	background-position: center;
+	background-size: contain;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+}
+.navbar{
+	height: 20%;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid red;
+	position: static;
+}
+.logo{
+	width:150px;
+	cursor: pointer;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 30px;
+}
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+	font-family: arial;
+	font-weight: lighter;
+}
+.active{
+	font-weight: bolder;
+	background-color: white;
+	color: black;
+	padding: 0.5rem;
+	border-radius: 4.5px;
+}
+
+footer{
+	display: inline-block;
+	box-sizing: border-box;
+	padding-left: 8%;
+	padding-right: 8%;
+	padding-top: 2%;
+	background-color: black;
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+	font-family: arial;
+	font-weight: lighter;
+}
+
+ul li{
+	list-style: none;
+}
+
+.foot-sec-left, .foot-sec-mid, .foot-sec-right{
+	width: 33.33%;
+	float: left;
+	display: block;
+}
+
+.footer{
+	width: 100%;
+	line-height: 5vh;
+}
+
+.clear-float{
+	clear: both;
+}
+.comment{
+	display: inline-block;
+	align-items: center;
+	width: 100%;
+}
+.comment p{
+	color: white;
+	text-align: center;
+}
+.services{
+	padding-top: 5rem;
+}
+.services p{
+	color: white;
+	font-size: 5rem;
+	font-weight: bolder;
+	font-family: century gothic;
+}
+.services h6{
+	color: red;
+	font-size: 16px;
+	font-weight: lighter;
+	font-family: monospace;
+}
+.right, .left{
+	float: left;
+	margin-right: 10px;
+	padding-top: 4rem;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	padding-bottom: 4rem;
+	width: 40%;
+}
+.service-head{
+	font-weight: bold;
+	font-size: xxx-large;
+	color: white;
+	font-family: century gothic;
+}
+.service-head-set{
+	font-weight: bold;
+	font-size: xxx-large;
+	color: black;
+	font-family: century gothic;
+}
+.service-text{
+	font-weight: lighter;
+	font-size: medium;
+	color: white;
+	font-family: century gothic;
+}
+.service-text-set{
+	font-weight: lighter;
+	font-size: medium;
+	color: black;
+	font-family: century gothic;
+}
+.image-one{
+	width: 100%;
+	box-shadow: 0px 10px 50px 1.5px black;
+}
+.image-one-set{
+	box-shadow: 0px 30px 30px 3px #aaa;
+	width: 100%;
+}
+.list{
+	display: inline-block;
+	padding: 0.7rem;
+	background-color: red;
+	margin-right: 0.5rem;
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+	color: white;
+	font-weight: bold;
+	font-family: arial;
+}
+.list-img{
+	width: 15px;
+}
+
+/*IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE*/
+.foot{
+	background-color: black;
+	display: inline-block;
+	padding: 1rem;
+	width: 100%;
+	max-width: 100%;
+}
+.foot-div{
+	padding-left: 43%;
+	padding-right: 43%;
+}
+.foot-text{
+	color: white;
+	font-size: smaller;
+	font-family: monospace;
+	font-weight: lighter;
+	display: block;
+}
+.foot-icon{
+	width: 100px;
+	display: inline-block;
+}
+@media only screen and (max-width:600px){
+	.foot-div{
+	padding-left: 33%;
+	padding-right: 33%;
+}
+}
+.responsive{
+	display: none;
+}
+/*IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE*/
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*RESPONSIVENESS //// MEDIA QUERIES*/
+@media only screen and (max-width:380px){
+body{
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+.main-body{
+	display: none;
+}
+.responsive{
+	display: initial;
+}
+.container-responsive{
+	width: 100%;
+	height: 50vh;
+	background-image: linear-gradient(rgba(0, 0, 3, 0.6),rgba(0, 0, 3, 0.6)),url(background.jpg);
+	background-position: center;
+	background-size: contain;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+}
+.logo-responsive, .menu{
+	float: right;
+	width: 50%;
+}
+.dropdown font{
+	color: red;
+	font-size: x-large;
+}
+.dropdown{
+	margin-top: 2.5rem;
+}
+.dropbtn{
+	cursor: pointer;
+}
+.dropbtn:hover, .dropbtn:focus{
+	background-color: red;
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 300px;
+	z-index: 1;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+}
+.dropdown-content a:hover{
+	background-color: #ddd;
+}
+.dropdown-content a{
+	display: block;
+	padding: 1rem;
+	text-decoration: none;
+	color: black;
+}
+.show{
+	display: block;
+}
+
+.services{
+	padding-top: 2rem;
+}
+.services p{
+	color: white;
+	font-size: 3rem;
+	font-weight: bolder;
+	font-family: century gothic;
+}
+.services h6{
+	color: red;
+	font-size: 12px;
+	font-weight: lighter;
+	font-family: monospace;
+}
+.right, .left{
+	float: left;
+	margin-right: 10px;
+	padding-top: 4rem;
+	padding-left: 0rem;
+	padding-right: 0;
+	padding-bottom: 4rem;
+	width: 100%;
+}
+.service-head{
+	font-weight: bold;
+	font-size: xxx-large;
+	color: black;
+	font-family: century gothic;
+}
+.service-head-set{
+	font-weight: bold;
+	font-size: 3rem;
+	color: black;
+	font-family: century gothic;
+}
+.service-text{
+	font-weight: lighter;
+	font-size: medium;
+	color: black;
+	font-family: century gothic;
+}
+.service-text-set{
+	font-weight: lighter;
+	font-size: medium;
+	color: black;
+	font-family:century gothic ;
+	width: 100%;
+}
+.image-one{
+	width: 100%;
+	box-shadow: 0px 30px 30px 3px #aaa;
+}
+.image-one-set{
+	box-shadow: 0px 30px 30px 3px #aaa
+}
+.list{
+	display: inline-block;
+	padding: 0.5rem;
+	background-color: red;
+	margin-right: 0.5rem;
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+	color: white;
+	font-weight: bold;
+	font-family: arial;
+	font-size: small;
+}
+.list-img{
+	width: 10px;
+}
+.footer-responsive{
+	display: inline-block;
+	box-sizing: border-box;
+	padding-left: 8%;
+	padding-right: 0;
+	padding-bottom: 0;
+	background-color: black;
+}
+.foot-sec-left, .foot-sec-mid, .foot-sec-right{
+	width: 50%;
+	float: left;
+	display: block;
+}
+
+.footer-responsive{
+	width: 100%;
+	line-height: 5vh;
+}
+
+.clear-float{
+	clear: both;
+}
+.comment{
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+.comment p{
+	color: white;
+	text-align: center;
+	font-size: smaller;
+}
+
+/*IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE*/
+.foot{
+	background-color: black;
+	display: inline-block;
+	padding: 1rem;
+	width: 70%;
+}
+.foot-div{
+	padding-left: 43%;
+	padding-right: 43%;
+}
+.foot-text{
+	color: white;
+	font-size: smaller;
+	font-family: monospace;
+	font-weight: lighter;
+	display: block;
+}
+.foot-icon{
+	width: 100px;
+	display: inline-block;
+}
+@media only screen and (max-width:600px){
+	.foot-div{
+	padding-left: 33%;
+	padding-right: 33%;
+}
+}
+/*IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE IBEWUIKE*/
+
+
+
+
+
+
+
+

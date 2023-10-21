@@ -1,0 +1,33 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.foot{
+	background-color: black;
+	display: inline-block;
+	padding: 1rem;
+	width: 100%;
+	max-width: 100%;
+}
+.foot-div{
+	padding-left: 43%;
+	padding-right: 43%;
+}
+.foot-text{
+	color: white;
+	font-size: smaller;
+	font-family: monospace;
+	font-weight: lighter;
+	display: block;
+}
+.foot-icon{
+	width: 100px;
+	display: inline-block;
+}
+@media only screen and (max-width:600px){
+	.foot-div{
+	padding-left: 35%;
+	padding-right: 35%;
+}
+}
